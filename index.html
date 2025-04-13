@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kasper Luboinski">
+    <meta name="description" content="A simple web page that displays random cat breeds with images using The Cat API.">
+    <title>Random Cat Breeds</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<h1>🐱 Random Cat Viewer</h1>
+<!-- Student info tag-->
+<p id="studentInfo"></p>
+
+<!-- cat container with all the cat info-->
+<div id="catContainer">
+    <img id="catImage" src="" alt="Click the Button" />
+    <p id="breedName">Breed: </p>
+    <p id="origin">Origin: </p>
+    <p id="weight">Weight: </p>
+    <p id="lifespan">Lifespan: </p>
+</div>
+
+<!-- get new cat button-->
+<button id="newCatBtn">Show Another Cat</button>
+
+<footer>
+<!-- Link to the cat api page-->
+    <p>API:
+        <a href="https://thecatapi.com/" target="_blank">The Cat API</a>
+    </p>
+</footer>
+</body>
+</html>
